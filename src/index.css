@@ -31,11 +31,11 @@ canvas {
 
 @font-face {
   font-family: "SfDisplay";
-  src: url("/public/fonts/sfdisplay/SFPRODISPLAYREGULAR.OTF");
+  src: url("/fonts/sfdisplay/SFPRODISPLAYREGULAR.OTF");
 }
 @font-face {
   font-family: "SfText";
-  src: url("/public/fonts/sftext/SFProTextRegular.ttf");
+  src: url("/fonts/sftext/SFProTextRegular.ttf");
 }
 
 @layer utilities {
