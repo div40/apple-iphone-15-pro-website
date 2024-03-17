@@ -29,6 +29,15 @@ canvas {
   max-width: 1120px;
 }
 
+@font-face {
+  font-family: "SfDisplay";
+  src: url("/public/fonts/sfdisplay/SFPRODISPLAYREGULAR.OTF");
+}
+@font-face {
+  font-family: "SfText";
+  src: url("/public/fonts/sftext/SFProTextRegular.ttf");
+}
+
 @layer utilities {
   .flex-center {
     @apply flex items-center justify-center

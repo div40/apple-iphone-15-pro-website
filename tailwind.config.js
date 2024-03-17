@@ -13,6 +13,10 @@ export default {
         },
         zinc: "#101010",
       },
+      fontFamily: {
+        "sfdisplay": ["SfDisplay", "sans-serif"],
+        "sftext": ["SfText", "sans-serif"]
+      }
     },
   },
   plugins: [],

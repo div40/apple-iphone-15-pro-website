@@ -37,12 +37,12 @@ const Hero = () => {
     });
   }, []);
   return (
-    <section className="w-full nav-height bg-black relative">
-      <div className="h-5/6 w-full flex-center flex-col">
-        <p id="hero-text" className="hero-title">
+    <section className="relative w-full bg-black nav-height">
+      <div className="flex-col w-full h-5/6 flex-center">
+        <p id="hero-text" className="hero-title font-sfdisplay">
           iPhone 15 Pro
         </p>
-        <div className="md:w-10/12 w-9/12">
+        <div className="w-9/12 md:w-10/12">
           <video
             autoPlay
             muted
@@ -56,12 +56,15 @@ const Hero = () => {
       </div>
       <div
         id="cta"
-        className="flex flex-col items-center opacity-0 translate-y-20"
+        className="flex flex-col items-center translate-y-20 opacity-0"
       >
-        <a href="#highlights" className="btn text-lg font-semibold">
+        <a
+          href="#highlights"
+          className="text-lg font-semibold btn font-sfdisplay"
+        >
           Buy
         </a>
-        <p className="text-xl font-semibold tracking-wide">
+        <p className="text-xl font-semibold tracking-wider font-sfdisplay">
           From ₹21483.00/mo or ₹134900.00
         </p>
       </div>

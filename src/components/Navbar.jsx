@@ -4,7 +4,7 @@ import { navLists } from "../constants";
 
 const Navbar = () => {
   return (
-    <header className="w-full py-4 sm:px-10 px-5 flex justify-between items-center">
+    <header className="flex items-center justify-between w-full px-5 py-4 sm:px-10">
       <nav className="flex w-full screen-max-width">
         <a href="/">
           <img
@@ -16,10 +16,10 @@ const Navbar = () => {
           />
         </a>
 
-        <div className="flex flex-1 justify-center max-sm:hidden">
+        <div className="flex justify-center flex-1 max-sm:hidden">
           {navLists.map((nav) => (
             <div
-              className="px-5 text-xs cursor-pointer text-gray-100 hover:text-white transition-all"
+              className="px-5 text-xs text-gray-200 transition-all cursor-pointer font-sftext hover:text-white"
               key={nav}
             >
               {nav}
