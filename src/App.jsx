@@ -1,6 +1,7 @@
 import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Highlights from "./components/Highlights";
+import HowItWorks from "./components/HowItWorks";
 import Navbar from "./components/Navbar";
 import PhoneModel from "./components/PhoneModel";
 
@@ -12,6 +13,7 @@ const App = () => {
       <Highlights />
       <PhoneModel />
       <Features />
+      <HowItWorks />
     </main>
   );
 };
